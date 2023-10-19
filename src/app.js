@@ -8,7 +8,7 @@ const { launchesRouter, } = require('./routes/launches/launches.router');
 
 const app = express();
 
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: 'https://api-test-jru2.onrender.com' }));
 app.use(morgan('dev'));
 
 app.use(express.json());
